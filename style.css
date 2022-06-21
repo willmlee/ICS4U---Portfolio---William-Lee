@@ -1,8 +1,11 @@
-body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body,h1,h2,h3,h4,h5,h6 {
+  font-family: "Lato", sans-serif;
+}
+
 body, html {
   height: 100%;
   line-height: 1.8;
-  background-color: rgb(204, 229, 255);
+  background-color: rgb(245, 255, 255);
 }
 
 .bgimg-1{
@@ -18,4 +21,15 @@ body, html {
   min-height: 100%;
 }
 
-h2 {text-align: center;}
+h2 {
+  text-align: center;
+  font-weight: bold;
+  border-bottom: solid;
+  margin-left: 35%;
+  margin-right: 35%;
+  border-color: rgb(0, 162, 255);
+}
+
+h3 {
+  text-align: center;
+}
